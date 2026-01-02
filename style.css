@@ -1,1 +1,93 @@
 /* styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #2c2c2c;
+  line-height: 1.7;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Main Title */
+h1 {
+  text-align: center;
+  color: #003366; /* BVM Academic Blue */
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+/* Subtitle */
+p b {
+  display: block;
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Section Headings */
+h2 {
+  color: #003366;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  border-left: 5px solid #003366;
+  padding-left: 12px;
+}
+
+/* Paragraph Text */
+p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* List Styling */
+ul {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+ul li {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+/* Complaint Button */
+a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 20px;
+  background-color: #003366;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #0055a5;
+}
+
+/* Section Spacing */
+h2 + p,
+h2 + ul,
+h2 + a {
+  margin-top: 10px;
+}
+
+/* Footer Look (Optional Future) */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
